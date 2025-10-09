@@ -1,0 +1,33 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "camaro_rs"
+    },
+    {
+      "id": 1,
+      "name": "dc_comics"
+    },
+    {
+      "id": 2,
+      "name": "forklift"
+    },
+    {
+      "id": 3,
+      "name": "gmc_hummer"
+    },
+    {
+      "id": 4,
+      "name": "mercedes_benz"
+    },
+    {
+      "id": 5,
+      "name": "mini_cooper"
+    }
+  ],
+  "info": {
+    "year": 2025,
+    "version": "1.0",
+    "contributor": "Label Studio"
+  }
+}

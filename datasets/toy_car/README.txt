@@ -1,0 +1,1 @@
+Place images under images/{train,val,test} and YOLO txt labels under labels/{train,val,test}.

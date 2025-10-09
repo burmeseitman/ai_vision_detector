@@ -1,0 +1,14 @@
+ultralytics>=8.2.0
+torch>=2.1.0
+torchvision
+opencv-python
+numpy
+pandas
+pyyaml
+tqdm
+matplotlib
+fastapi
+uvicorn
+pydantic
+python-multipart
+streamlit

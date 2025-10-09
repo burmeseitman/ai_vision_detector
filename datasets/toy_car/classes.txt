@@ -1,0 +1,6 @@
+camaro_rs
+dc_comics
+forklift
+gmc_hummer
+mercedes_benz
+mini_cooper

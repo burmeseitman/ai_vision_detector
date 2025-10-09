@@ -1,0 +1,13 @@
+# YOLO dataset config
+path: datasets/toy_car
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: mercedes benz g63
+  1: mini cooper
+  2: dc comics
+  3: forklift
+  4: 70 camaro rs
+  5: gmc hummer
