@@ -26,7 +26,6 @@ def main():
         project=args.project,
         name=args.name,
         pretrained=True,
-        device=0 if os.environ.get("CUDA_VISIBLE_DEVICES") else "cpu",
         workers=4,
         optimizer="auto"
     )

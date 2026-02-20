@@ -32,7 +32,8 @@ def main():
     model = YOLO(args.weights) if args.weights.endswith(".pt") else YOLO("yolov8n.pt")
 
     import cv2
-    cap = cv2.VideoCapture(0 if args.source == "0" else args.source)
+    source = int(args.source) if args.source.isdigit() else args.source
+    cap = cv2.VideoCapture(source)
     fourcc = cv2.VideoWriter_fourcc(*"mp4v")
     out = None
     if args.save:

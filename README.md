@@ -18,10 +18,13 @@ source .venv/bin/activate  # on Windows: .venv\Scripts\activate
 # 2) Install
 pip install -r requirements.txt
 
-# 3) (Optional) Validate dataset structure
+# 3) (Optional) Split raw dataset into train/val/test
+python split_dataset.py
+
+# 4) Validate dataset structure
 python tools/verify_dataset.py datasets/toy_car
 
-# 4) Train
+# 5) Train
 python train.py --data configs/cv_dataset.yaml --epochs 50 --img 640
 
 # 5) Inference on webcam (index 0) or RTSP/cctv url
@@ -53,6 +56,9 @@ ai_vision_detector/
     cv_dataset.yaml
     yolo_hyperparams.yaml
   datasets/
+    raw_data/
+      images/
+      labels/
     toy_car/
       images/{train,valid,test}/
       labels/{train,valid,test}/
